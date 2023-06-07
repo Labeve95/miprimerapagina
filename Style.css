@@ -92,6 +92,21 @@ a{
     padding-inline: 30px;
 }
 
+.img{
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.greeting{
+    text-align: center;
+}
+
+.image-slider{
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+
 @media (max-width: 768px) {
     .column {
       flex: 100%;
